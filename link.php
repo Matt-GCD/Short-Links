@@ -13,10 +13,12 @@
 				
 			//gets related link; if old_link is related to new_link, send to old_link
 			if($url = $start->getUrl($code)) {
-					//sets views
-					mysql_query("UPDATE LINKS SET VIEWS = VIEWS +1 WHERE NEW_LINK = '$code'") or die (mysql_error());
+				//sets views
+				mysql_query("UPDATE LINKS SET VIEWS = VIEWS +1 WHERE NEW_LINK = '$code'") or die (mysql_error());
+				
 				//redirects to site, using old_link
 				header("Location: {$url}");
+				
 				die();//kills page
 			}
 			
