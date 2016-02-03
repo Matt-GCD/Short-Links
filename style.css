@@ -1,0 +1,365 @@
+/*FRW ShortLinks: CSS style sheet */
+
+	/************Style that is used on most pages************/
+	
+	/*Main container*/
+	#container{
+		display: block;
+		height: 80%;
+		width: 80%;
+		background-size: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/*Banner*/
+	#banner{
+		display: block;
+		height: 60%;
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/*footer*/
+	#footer{
+		padding-top: 5%;
+	}
+	/*About image*/
+	#about{
+		display: block;
+		height: 25%;
+		width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+
+	/*************FRW_LOGIN.php formatting***************/
+	
+	/*Sign in button */
+	#sign-in{
+		display: block;
+		height: auto;
+		width: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 5%;
+	}
+	
+	/*User name field */
+	#enter_username{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*Password field */
+	#enter_password{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		padding:1% 2%;
+	}
+	
+	/*Sign in button*/
+	#sign_in_button{
+		display: block;
+		height: 15%;
+		width: 15%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		cursor: pointer;
+	}
+	
+	/*Or image */
+	#or{
+		display: block;
+		height: 50%;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-right: 1%;
+	}
+	
+	/*Sign up button*/
+	#sign_up_button{
+		display: block;
+		height: 14%;
+		width: 14%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 3%;
+	}
+	
+	/*Used to center images mainly banner image*/
+	img.center{
+		display: block;
+		height: 100%;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	/**************SIGN_UP.php formatting***************/
+	
+	/*sign up button*/
+	#sign-up{
+		display: block;
+		height: 95%;
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 40px;
+	}
+	
+	/*User name field */
+	#Username{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*First name field */
+	#First_name{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*Surname field */
+	#Surname{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*Email field */
+	#Email{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*Re-enter email field */
+	#re-enter_email{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*Password field */
+	#Password{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*Re-enter password field */
+	#Re-enter_password{
+		display: block;
+		height: 85%;
+		width: 10%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*Image formatting*/
+	#make_your_links_managable{
+		display: block;
+		height: 40%;
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	/***********page.php formatting**************/
+	
+	/*logout button*/
+	#log{
+		float: left;
+		margin-left: 24%;
+		margin-right: auto;
+		height: 8%;
+		width: 8%;
+		cursor: pointer;
+	}
+	
+	/*search bar*/
+	#search{
+		display: block;
+		height: 15%;
+		width: 15%;
+		margin-left: auto;
+		margin-right: 26%;
+		margin-top: 1%;
+	}
+
+	/*image formatting*/
+	#enter_link{
+		display: block;
+		height: 50%;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20%;
+		padding-bottom: 1%;
+		padding:1% 2%;
+		margin-top: 3%;
+	}
+	
+	/*Enter URL field*/
+	#URL{
+		display: block;
+		height: 55%;
+		width: 30%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom:1%;
+		padding:1% 2%;
+	}
+	
+	/*Shorten button*/
+	#shorten_button{
+		display: block;
+		height: 15%;
+		width: 15%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2%;
+		cursor: pointer;
+	}
+	
+	/*your link has been shortened image*/
+	#shortened{
+		display: block;
+		height: 35%;
+		width: 35%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 1%;
+	}
+	
+	
+	/*Your links image*/
+	#your_links{
+		float: left;
+		display: block;
+		height: 5%;
+		width: 18%;
+		margin-left: 14%;
+		margin-right: auto;
+	}
+	
+	/*Setting image*/
+	#settings{
+		float: right;
+		display: block;
+		height: 5%;
+		width: 18%;
+		margin-left: auto;
+		margin-right: 14%;
+	}
+	
+	/*Basic account image*/
+	#basic_account{
+		display: block;
+		height: 25%;
+		width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 1%;
+	}
+	
+	/*Premium account image*/
+	#premium_account{
+		display: block;
+		height: 325%;
+		width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 1%;
+	}
+	
+	/******************table_page formatting****************/
+	
+	.styled-table{
+		width: 60%;
+		border = 4;
+		font-family:Arial, Helvetica, sans-serif;
+		color:#666;
+		font-size:12px;
+		text-shadow: 1px 1px 0px #fff;
+		background:#eaebec;
+		margin:20px;
+		border:#ccc 1px solid;
+
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		border-radius:3px;
+
+		-moz-box-shadow: 0 1px 2px #d1d1d1;
+		-webkit-box-shadow: 0 1px 2px #d1d1d1;
+		box-shadow: 0 1px 2px #d1d1d1;
+		margin-top: 4%;
+	}
+	
+	.styled-td { 
+		color: black; 
+		border: 1px white;
+		background-color: white;
+ 
+	
+	}
+	
+	/*search table*/
+	#search_table{
+		float: left;
+		margin-left: 35%;
+		margin-right: auto;
+		height: 15%;
+		width: 15%;
+		margin-top: 1%;
+	}
+	
+	/*search button*/
+	#search_button{
+		float: right;
+		margin-left: auto;
+		margin-right: 40%;
+		height: 8%;
+		width: 8%;
+		cursor: pointer;
+	}
